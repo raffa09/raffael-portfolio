@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="main-container">
+        <div class="nav">
+          <div class="logo">
+            <a href="">Web Profile</a>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projek">Projek</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <section id="home">
+          <div class="home-left">
+            <h3 class="pre-title">Hallo all I am</h3>
+            <h1 class="home-name">Raffael Sambu Raditya</h1>
+            <br />
+            <p>
+              Salam, perkenalkan, saya Raffael Sambu Raditya. Saya adalah seorang
+              siswa SMK Hangtuah 1 Jakarta dengan jurusan Rekayasa Perangkat Lunak.
+              Mari jalin koneksi bersama!
+            </p>
+            <br />
+
+            <!-- Tombol Download CV -->
+            <a href="../cv-Raffael/CV Raffael Sambu Raditya (5).pdf" download>
+              <button class="btn">Download CV</button>
+            </a>
+          </div>
+
+          <div class="home-right">
+            <img src="img/Raffa.png" alt="fotokita" />
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <section id="skills">
+      <div class="main-container">
+        <h1 class="section-title-servis">My Skills</h1>
+        <br />
+        <div class="grid-3">
+          <div class="servis">
+            <div class="servis-icon">
+              <img src="img/html.png" alt="HTML" width="24" height="24" />
+            </div>
+            <h4>HTML</h4>
+            <p>
+              HTML adalah bahasa standar untuk membuat struktur dan konten halaman web.
+            </p>
+          </div>
+
+          <div class="servis">
+            <div class="servis-icon">
+              <img src="img/css.png" alt="CSS" width="24" height="24" />
+            </div>
+            <h4>CSS</h4>
+            <p>
+              CSS digunakan untuk mengatur tampilan dan gaya elemen HTML agar web
+              terlihat menarik dan responsif.
+            </p>
+          </div>
+
+          <div class="servis">
+            <div class="servis-icon">
+              <img src="img/java.png" alt="JS" width="24" height="24" />
+            </div>
+            <h4>JS</h4>
+            <p>
+              JavaScript adalah bahasa pemrograman untuk membuat web menjadi interaktif
+              dan dinamis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projek">
+      <h1 class="section-title-porto">My Project</h1>
+      <br />
+      <div class="section-card">
+        <div class="card card-1">
+          <img src="img/figma.png" alt="Figma Project" class="card__img" />
+          <div class="card__details">
+            <ul>
+              <li>UI/UX Design</li>
+              <li>Layanan Ekspedisi</li>
+              <li>Figma</li>
+              <li>2025</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card card-2">
+          <img src="img/kalku.png" alt="Kalkulator" class="card__img" />
+          <div class="card__details">
+            <ul>
+              <li>Desain Kalkulator</li>
+              <li>Pemrograman Kalkulator</li>
+              <li>NetBeans</li>
+              <li>2025</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card card-3">
+          <img src="img/logo.png" alt="Web Rumah Sakit" class="card__img" />
+          <div class="card__details">
+            <ul>
+              <li>Web Development</li>
+              <li>Pembuatan Web Rumah Sakit</li>
+              <li>Visual Studio Code</li>
+              <li>2024</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact main-container">
+        <h1>Contact</h1>
+        <ul>
+          <p>Address: Jakarta Utara, Tanjung Priok</p>
+          <p>
+            Email:
+            <a href="mailto:rafaelsraditya@gmail.com">rafaelsraditya@gmail.com</a>
+          </p>
+        </ul>
+      </div>
+
+      <form class="contact-form">
+        <div>
+          <input type="text" name="name" placeholder="Name" />
+        </div>
+        <div>
+          <input type="email" name="email" placeholder="Email" />
+        </div>
+        <div>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <div>
+          <button class="btn-submit">Send Message</button>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-icons">
+        <a href="">
+          <img src="img/instagram.png" alt="Instagram" width="24" height="24" />
+        </a>
+        <a href="">
+          <img src="img/github.png" alt="GitHub" width="24" height="24" />
+        </a>
+      </div>
+      <p>&#169; 2024 All Right Reserved By Raffael Sambu Raditya</p>
+    </footer>
+    
+  </body>
+</html>
